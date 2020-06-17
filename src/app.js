@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-// repo for RAM storge
+// RAM storage
 const repositories = [];
 
 // List
